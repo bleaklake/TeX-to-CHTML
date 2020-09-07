@@ -1,18 +1,28 @@
 {
-  "name": "AM-to-CHTML",
+  "name": "tex-to-chtml",
   "version": "0.1.0",
-  "description": "The MathJax library to convert AsciiMath to CHTML",
-  "main": "AMToCHTML.js",
+  "description": "The MathJax wrapper to convert TeX to CHTML",
+  "main": "TeXToCHTML.js",
   "keywords": [
-    "AM",
-    "AsciiMath",
+    "TeX",
     "CHTML",
     "MathJax"
   ],
-  "repository": "https://github.com/CreateurCreatif/AM-to-CHTML",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreatifCreateur/TeX-to-CHTML.git"
+  },
   "author": "@CreateurCreatif",
   "license": "MIT",
   "dependencies": {
     "mathjax-full": "^3.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/CreatifCreateur/TeX-to-CHTML/issues"
+  },
+  "homepage": "https://github.com/CreatifCreateur/TeX-to-CHTML#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

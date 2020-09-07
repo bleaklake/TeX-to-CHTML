@@ -1,4 +1,4 @@
-declare module "AM-to-CHTML" {
+declare module "TeX-to-CHTML" {
 
     interface options {
         width?: number,
@@ -7,5 +7,5 @@ declare module "AM-to-CHTML" {
         fontURL?: string
     }
 
-    export default function AMToCHTML(str: string, opts?: options): string;
+    export default function TeXToCHTML(str: string, opts?: options): string;
 }
