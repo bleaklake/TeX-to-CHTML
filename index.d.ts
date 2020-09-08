@@ -1,4 +1,4 @@
-declare module "TeX-to-CHTML" {
+declare module "tex-to-chtml" {
 
     interface options {
         width?: number,
